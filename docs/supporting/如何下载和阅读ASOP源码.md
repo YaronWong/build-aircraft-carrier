@@ -186,7 +186,7 @@ Android系统涵盖的范围很广，从上层的应用程序，到Framework，�
 
 Android 源码阅读神器当然是Source Insight
 
-![img](https://upload-images.jianshu.io/upload_images/3387045-b51b0c5d2f922d17?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![avatar](../../media/img/android_001_001.webp)
 
 Source Insight的好处：
 
@@ -207,19 +207,19 @@ Source Insight的好处：
 
 我目前还没有下载完整的AOSP源码，只是先下载了几个重要的源码。打开Source Insight,选择Project -> New Project，取个名字比如叫AOSP，点击OK
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-5f6566739b6ec7f0?imageMogr2/auto-orient/strip|imageView2/2/w/580/format/webp)
+![avatar](../../media/img/android_001_002.webp)
 
 选择你要查看的源码目录，点击OK
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-00e642fa84dc9048?imageMogr2/auto-orient/strip|imageView2/2/w/601/format/webp)
+![avatar](../../media/img/android_001_003.webp)
 
 选择需要将哪些目录下的源码导入，点击Add Tree
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-11b72919dc84c202?imageMogr2/auto-orient/strip|imageView2/2/w/678/format/webp)
+![avatar](../../media/img/android_001_004.webp)
 
 导入成功后会有很多文件列在下方，点击Close
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-83e320562b7334c9?imageMogr2/auto-orient/strip|imageView2/2/w/678/format/webp)
+![avatar](../../media/img/android_001_005.webp)
 
 
 
@@ -229,25 +229,25 @@ Source Insight的好处：
 
 现在进入项目还是一片空白，需要把工具栏打开，然后就可以看源码了
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-4f6484ed4234a0f7?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![avatar](../../media/img/android_001_006.webp)
 
 左边是方法和成员变量搜索，右边Project File是搜索类名，Project Symbol是内容搜索
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-cf06e93248f76707?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![avatar](../../media/img/android_001_007.webp)
 
 还有一些快捷键，比如Ctrl+左键可以方法跳转，左上角有前进和后退，Ctrl+G 是跳转到指定行，Ctrl+F 搜索内容，有时我们会遇到方法无法跳转，这时我们需要点击Project，选择Synchronize Files,全局关联一下，如图
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-0a652466c31c1c91?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![avatar](../../media/img/android_001_008.webp)
 
 这里要注意导入的文件不要太多，太多会导致Synchronize失败，我们可以选择性地导入一些目录
 
 我们在导入源码的时候，有时一些汇编的源码(以.s或.S结尾)无法导入，这时我们需要点击Options，选择File Type Options，在C/C++里添加.s和.S的支持，然后Close，如图
 
-![img](https:////upload-images.jianshu.io/upload_images/3387045-aef647f3f99308ad?imageMogr2/auto-orient/strip|imageView2/2/w/825/format/webp)
+![avatar](../../media/img/android_001_009.webp)
 
 然后我们重新追加一些目录，点击Project，选择Add and Remove Projec Files，选择对应目录Add Tree即可，同时我们也可以选择Remove Tree删除对应目录源码，操作如下
 
-![img](https://upload-images.jianshu.io/upload_images/3387045-bf9f97d5cdaf4a4e?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![avatar](../../media/img/android_001_010.webp)
 
 
 

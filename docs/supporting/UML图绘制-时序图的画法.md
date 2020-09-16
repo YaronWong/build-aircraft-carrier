@@ -24,7 +24,7 @@
 
   也可以是系统角色，可以是人或者其他系统，子系统
 
-  ![image-20200916161057677](C:\Users\wangxiaohao\AppData\Roaming\Typora\typora-user-images\image-20200916161057677.png)
+  ![avatar](../../media/img/android_002_001.webp)
 
 - **生命线**: 生命线是一条**垂直的虚线**. 表示**时序图中的对象在一段生命周期内存在**. **每个对象底部中心的位置都带有生命线**.
 
@@ -32,23 +32,23 @@
 
 -  **同步消息=调用消息**（**Synchronous Message**）：消息的发送者把控制传递给消息的接收者，**然后停止活动**，等待消息的接收者放弃或者返回控制。用来表示同步的意义
 
-  ![img](https://img-blog.csdnimg.cn/20190425094215615.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM2OTY4Nw==,size_16,color_FFFFFF,t_70)
+  ![avatar](../../media/img/android_002_002.webp)
 
 -  **异步消息（Asynchronous Message）**：消息发送者通过消息把信号传递给消息的接收者，**然后继续自己的活动**，不等待接受者返回消息或者控制。**异步消息的接收者和发送者是并发工作的**
 
-  ![img](https://img-blog.csdnimg.cn/20190425094230943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM2OTY4Nw==,size_16,color_FFFFFF,t_70)
+  ![avatar](../../media/img/android_002_003.webp)
 
 - **返回消息（Return Message）**：返回消息表示**从过程调用返回**
 
-  ![img](https://img-blog.csdnimg.cn/20190425094249884.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM2OTY4Nw==,size_16,color_FFFFFF,t_70)
+  ![avatar](../../media/img/android_002_004.webp)
 
 -  **自关联消息**： 表示方法的**自身调用**以及**一个对象内的一个方法调用另外一个方法**。
 
-  ![img](https://img-blog.csdnimg.cn/20190425094309639.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM2OTY4Nw==,size_16,color_FFFFFF,t_70)
+  ![avatar](../../media/img/android_002_005.webp)
 
 - **激活钝化激活**表示**该对象被占用以完成某个任务**. **钝化**指**对象处于空闲状态**, **等待消息**. **在 UML 中, 对象激活时将对象的生命线拓宽为矩形来表示的. 矩形称为计划条或控制期**
 
-  ![img](https://img-blog.csdnimg.cn/20190425094635367.png)
+  ![avatar](../../media/img/android_002_006.webp)
 
 - **对象的创建和销毁**: 在时序图中, **对象的默认位置是在图的顶部. 这说明对象在交互开始之前就已经存在了**. 如果**对象是在交互过程中创建的, 那么就应该将对象放到中间部分**. 如果要**撤销一个对象, 在其生命线终止点处放置 “ X”** 符号.
 
@@ -56,10 +56,18 @@
 
   ### 示例1：图例说明
 
-  ![UML时序图](https://www.edrawsoft.cn/wp/wp-content/uploads/2017/04/UML-Sequence-Diagram.png)
+  ![avatar](../../media/img/android_002_007.webp)
 
   
 
   ### 示例2：Activity启动流程时序图
 
-![img](https://img-blog.csdnimg.cn/20190212154346307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xxYno0NTY=,size_16,color_FFFFFF,t_70)
+![avatar](../../media/img/android_002_008.webp)
+
+
+
+参考文章
+
+[UML图绘制-时序图的画法](https://blog.csdn.net/weixin_42369687/article/details/89479039)
+
+[Activity启动流程时序图](https://blog.csdn.net/lqbz456/article/details/87093701)
